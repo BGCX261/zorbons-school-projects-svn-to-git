@@ -1,0 +1,37 @@
+﻿Build started 1. 1. 2013 17:40:44.
+     1>Project "C:\Users\Petr\Documents\Visual Studio 2012\Projects\VanicekPetr_i10248\VanicekPetr_i10248\VanicekPetr_i10248.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt seznamPamatek.c
+         seznamPamatek.c
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(29): warning C4101: 'mesto' : unreferenced local variable
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(73): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(78): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(83): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(89): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(90): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(91): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(92): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(191) : see declaration of 'strncpy'
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(110): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(112): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(165): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(37): warning C4716: 'ulozGPS' : must return a value
+     1>c:\users\petr\documents\visual studio 2012\projects\vanicekpetr_i10248\vanicekpetr_i10248\seznampamatek.c(178): warning C4716: 'najdiTriNejblizsi' : must return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Petr\Documents\Visual Studio 2012\Projects\VanicekPetr_i10248\Debug\VanicekPetr_i10248.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Petr\Documents\Visual Studio 2012\Projects\VanicekPetr_i10248\Debug\VanicekPetr_i10248.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Petr\Documents\Visual Studio 2012\Projects\VanicekPetr_i10248\Debug\VanicekPetr_i10248.lib" /MACHINE:X86 Debug\main.obj
+         Debug\pamatka.obj
+         Debug\seznamPamatek.obj
+         Debug\test.obj
+     1>MSVCRTD.lib(crtexe.obj) : error LNK2019: unresolved external symbol _main referenced in function ___tmainCRTStartup
+     1>C:\Users\Petr\Documents\Visual Studio 2012\Projects\VanicekPetr_i10248\Debug\VanicekPetr_i10248.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\Petr\Documents\Visual Studio 2012\Projects\VanicekPetr_i10248\VanicekPetr_i10248\VanicekPetr_i10248.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.02
